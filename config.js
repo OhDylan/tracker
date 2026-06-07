@@ -10,56 +10,73 @@ window.CONFIG = {
     1: {
       label: '周一 · 通勤日', subtitle: '在路上也是学习',
       items: [
-        { id: 'commute',    emoji: '🎧', text: '通勤听podcast/看课程' },
+        { id: 'commute',    emoji: '🎧', text: '通勤听 podcast / 看课程' },
         { id: 'short-post', emoji: '✍️', text: '午休发短文' },
+        { id: 'sugar',      emoji: '🥦', text: '控糖 — 原型食物优先' },
       ]
     },
     2: {
       label: '周二 · WFH', subtitle: '专注学习日',
       items: [
+        { id: 'phone-away', emoji: '📱', text: '开工前手机收起来' },
         { id: 'robotics',   emoji: '🤖', text: 'Robotics 学习' },
         { id: 'short-post', emoji: '✍️', text: '发短文' },
         { id: 'exercise',   emoji: '💪', text: '运动 1hr' },
+        { id: 'sugar',      emoji: '🥦', text: '控糖 — 原型食物优先' },
+        { id: 'focus-check', emoji: '🧠', text: '下班 check：注意力去了哪里？' },
       ]
     },
     3: {
       label: '周三 · WFH', subtitle: '专注学习日',
       items: [
+        { id: 'phone-away', emoji: '📱', text: '开工前手机收起来' },
         { id: 'robotics',   emoji: '🤖', text: 'Robotics 学习' },
         { id: 'short-post', emoji: '✍️', text: '发短文' },
         { id: 'exercise',   emoji: '💪', text: '运动 1hr' },
+        { id: 'sugar',      emoji: '🥦', text: '控糖 — 原型食物优先' },
+        { id: 'focus-check', emoji: '🧠', text: '下班 check：注意力去了哪里？' },
       ]
     },
     4: {
       label: '周四 · 通勤日', subtitle: '在路上也是学习',
       items: [
-        { id: 'commute',    emoji: '🎧', text: '通勤听podcast/看课程' },
+        { id: 'commute',    emoji: '🎧', text: '通勤听 podcast / 看课程' },
         { id: 'short-post', emoji: '✍️', text: '午休发短文' },
+        { id: 'sugar',      emoji: '🥦', text: '控糖 — 原型食物优先' },
       ]
     },
     5: {
       label: '周五 · WFH', subtitle: '学习 + 放松夜',
       items: [
+        { id: 'phone-away', emoji: '📱', text: '开工前手机收起来' },
         { id: 'robotics',   emoji: '🤖', text: 'Robotics 学习' },
         { id: 'short-post', emoji: '✍️', text: '发短文' },
         { id: 'exercise',   emoji: '💪', text: '运动 1hr' },
-        { id: 'gaming',     emoji: '🎮', text: '王者荣耀', note: '玩得开心' },
+        { id: 'sugar',      emoji: '🥦', text: '控糖 — 原型食物优先' },
+        { id: 'focus-check', emoji: '🧠', text: '下班 check：注意力去了哪里？' },
+        { id: 'gaming',     emoji: '🎮', text: '王者荣耀', note: '晚上放松' },
       ]
     },
     6: {
       label: '周六 · 自由日', subtitle: '深度学习 + 社交',
       items: [
-        { id: 'robotics', emoji: '🤖', text: 'Robotics 学习' },
-        { id: 'exercise', emoji: '💪', text: '运动 1.5hr' },
-        { id: 'social',   emoji: '🎮', text: '王者/聚会' },
+        { id: 'robotics',   emoji: '🤖', text: 'Robotics 学习' },
+        { id: 'short-post', emoji: '✍️', text: '发短文' },
+        { id: 'substack',   emoji: '📝', text: 'Substack 长文', note: '写好下周发' },
+        { id: 'exercise',   emoji: '💪', text: '运动 1.5hr' },
+        { id: 'sugar',      emoji: '🥦', text: '控糖 — 原型食物优先' },
+        { id: 'social',     emoji: '🎮', text: '王者 / 聚会', note: '晚上' },
       ]
     },
     0: {
       label: '周日 · 自由日', subtitle: '学习 + 复盘',
       items: [
-        { id: 'robotics', emoji: '🤖', text: 'Robotics 学习' },
-        { id: 'exercise', emoji: '💪', text: '运动 1.5hr' },
-        { id: 'review',   emoji: '📋', text: '周复盘 + 展望下周' },
+        { id: 'robotics',   emoji: '🤖', text: 'Robotics 学习' },
+        { id: 'short-post', emoji: '✍️', text: '发短文' },
+        { id: 'substack',   emoji: '📝', text: 'Substack 长文' },
+        { id: 'exercise',   emoji: '💪', text: '运动 1.5hr' },
+        { id: 'sugar',      emoji: '🥦', text: '控糖 — 原型食物优先' },
+        { id: 'review',     emoji: '📋', text: '周复盘 + 展望下周' },
       ]
     }
   },
